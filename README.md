@@ -1,1 +1,13 @@
 # CS_340_Client-Server_Development
+
+### How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+I prefer to use an object oriented coding method when writing my code. The helps to simplify my code while also making it maintainable, readable, and adaptable. In regards to the CRUD Python module for this project, the CRUD capabilities were pulled away from the rest of the code and put into their own module. This module was then used within the dashboard code. Becuase this functionality was put into its own reusable module, it would be very easy to use it again in a different project that required CRUD capbilities.
+
+### How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+For this project, I began by working to understand as best as I could what the requirements were from the client and what the drivers were behind those requirements. This helps to build a solution that is in line with what the client needs and desires. After this, I employeed an iterative approach to building the database and dashboard by working on one aspect in small steps one after the other; I would code a bit then test and repeat until the requirement was satisfied. Becuase I was working with some technologies that I haven't experienced in the past (e.g., MongoDB, Dash/Plotly, etc.), I reviewed the documentation for these and researched example uses of these technologies to get a better handle on how to use them.
+
+### What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+While programming a solution is a major part of what a computer scientists does, I think they also spend a significant amount of time determining what tools are needed to accomplish a task and designing a solution for a client's needs using those tools (e.g., the interaction between different technologies like MongoDB and Dash/Plotly in the case of this project). In this particular case, this work would help a company like Grazioso Salvare to accomplish what would otherwise be a cumbersome task (i.e., finding applicable dogs from a large database) with an efficient and simple to use interface.
